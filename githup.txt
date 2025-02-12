@@ -1,0 +1,34 @@
+cd C:\xampp\htdocs\project\task
+
+git init
+
+//It initializes a Git repository locally in that folder by creating a .git directory inside it.
+
+git add .
+
+//Add  all Files to Git
+
+git commit -m "Initial commit"
+
+//Saves changes to the repository and add message "Initial commit"
+
+git remote add origin https://github.com/LujainDarwazeh1/Task.git
+
+//connects your local Git repository to a remote repository on GitHub( Git default is origin )
+
+git branch -M main
+
+//Rename branch to main if needed (If your branch is master, this command renames it to main)
+
+
+git push -u origin main
+//git push → Sends commits from your local repo to GitHub.
+//Links your local main branch with origin/main
+//The remote repository (GitHub
+//The branch being pushed
+
+git remote -v
+//shows the remote repositories linked to your project
+//(fetch) → Git will use this URL to download (fetch) changes from GitHub.
+//(push) → Git will use this URL to upload (push) your local changes to GitHub.
+
