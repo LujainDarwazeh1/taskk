@@ -1,3 +1,4 @@
+//notes
 cd C:\xampp\htdocs\project\task
 
 git init
@@ -31,4 +32,11 @@ git remote -v
 //shows the remote repositories linked to your project
 //(fetch) → Git will use this URL to download (fetch) changes from GitHub.
 //(push) → Git will use this URL to upload (push) your local changes to GitHub.
+
+
+git branch lujain
+//create branch lujain
+
+git checkout new-feature
+//switch to lujain branch 
 
