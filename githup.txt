@@ -40,3 +40,12 @@ git branch lujain
 git checkout new-feature
 //switch to lujain branch 
 
+
+
+
+problem in  command git push print :Everything up-to-date
+sol :git add . then git commit -m "new" then git push
+
+problem in command git push print fatal: The current branch lujain has no upstream branch.
+sol:>git push -u origin lujain
+
