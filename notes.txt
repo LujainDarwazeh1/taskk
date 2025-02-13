@@ -1,4 +1,2 @@
-No, you cannot run PHP code directly from a text editor like VS Code, Notepad++, or Sublime Text. PHP is a server-side language, so it requires a server environment to execute.
-
 
 hello 

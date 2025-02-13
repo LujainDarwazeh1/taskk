@@ -41,11 +41,23 @@ git checkout new-feature
 //switch to lujain branch 
 
 
-
-
 problem in  command git push print :Everything up-to-date
 sol :git add . then git commit -m "new" then git push
 
 problem in command git push print fatal: The current branch lujain has no upstream branch.
 sol:>git push -u origin lujain
+
+//pull request is for request marge
+//marge is for merge change to the main
+
+problem :>git push
+fatal: The current branch lujain has no upstream branch. sol:git push -u origin lujain
+
+problem :git push
+Everything up-to-date sol:git add . then git commit -m "new" then >git push
+
+git fetch origin//Fetches the latest changes from the remote repository without merging them into your local branch.
+
+git pull origin main//Fetch the latest changes from the origin/main branch (including any merged pull requests).
+
 
